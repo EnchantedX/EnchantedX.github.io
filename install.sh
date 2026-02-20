@@ -411,7 +411,7 @@ install_tx-ui() {
     fi
 
     cp -f tx-ui.service /etc/systemd/system/
-    wget --no-check-certificate -O /usr/bin/tx-ui https://raw.githubusercontent.com/EnchantedX/EnchantedX.github.io/main/tx-ui.sh
+    wget --no-check-certificate -O /usr/bin/tx-ui wget --no-check-certificate -O /usr/bin/tx-ui https://github.com/EnchantedX/EnchantedX.github.io/blob/master/tx-ui.sh
     chmod +x /usr/local/tx-ui/tx-ui.sh
     chmod +x /usr/bin/tx-ui
     config_after_install
