@@ -101,7 +101,7 @@ get_snell_download_url() {
         # v5 版本自动拼接下载链接
         case ${arch} in
             "x86_64"|"amd64")
-                echo "https://o0o.net2ftp.pp.ua/https://dl.nssurge.com/snell/snell-server-${SNELL_VERSION}-linux-amd64.zip"
+                echo "https://o0o.net2ftp.pp.ua/https://raw.githubusercontent.com/EnchantedX/EnchantedX.github.io/master/snell-server-v5.0.1-linux-amd64.zip"
                 ;;
             "i386"|"i686")
                 echo "https://o0o.net2ftp.pp.ua/https://dl.nssurge.com/snell/snell-server-${SNELL_VERSION}-linux-i386.zip"
